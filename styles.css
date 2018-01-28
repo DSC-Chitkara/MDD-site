@@ -340,8 +340,38 @@ a:link {
     opacity: 1;
 }
 
+.italic {
+    font-style: italic;
+}
+
+.list-heading {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+
 .contact-us {
     font-size: 2em;
     margin-bottom: 1em;
-    color: rgb(180, 189, 193, 1);
+    color: rgba(180, 189, 193, 1);
+}
+
+ul > li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.center-image {
+    max-height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.floating-registration {
+    display: block;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    padding: 20px;
 }
