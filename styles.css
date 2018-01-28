@@ -360,3 +360,18 @@ ul > li {
     margin: 0;
     padding: 0;
 }
+
+.center-image {
+    max-height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.floating-registration {
+    display: block;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    padding: 20px;
+}
