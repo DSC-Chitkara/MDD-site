@@ -368,10 +368,12 @@ ul > li {
     margin-right: auto;
 }
 
-.floating-registration {
-    display: block;
-    position: fixed;
-    right: 30px;
-    bottom: 30px;
-    padding: 20px;
+@media only screen and (min-width: 1024px) {
+    .floating-registration {
+        display: block !important;
+        position: fixed !important;
+        right: 30px !important;
+        bottom: 30px !important;
+        padding: 20px !important;
+    }
 }
