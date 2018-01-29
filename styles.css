@@ -375,3 +375,12 @@ ul > li {
     bottom: 30px;
     padding: 20px;
 }
+
+@media only screen and (max-width: 1341px) {
+    .floating-registration {
+        position: relative;
+        right: 0;
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+}
